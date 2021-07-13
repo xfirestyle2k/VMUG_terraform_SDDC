@@ -22,7 +22,7 @@ variable "sddc_mgmt_subnet" {
   description = "SDDC management network CIDR. Only prefix of 16, 20 and 23 are supported."
 }
 
-variable "sddc_default" {
+variable "sddc_client_net" {
   description = "A logical network segment that will be created with the SDDC under the compute gateway."
 }
 
